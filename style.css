@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: #012030;
+    color: #9AEBA3;
+}
+
+.container {
+    height: 100px;
+    width: 700px;
+    margin: 100px auto;
+}
+
+form {
+    border: 1px solid rgb(126, 232, 166);
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.container > div > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 2px solid #9AEBA3;
+    /* border-bottom: 2px solid #9AEBA3; */
+}
+
+.formulario-datos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px auto;
+}
+
+.formulario-datos > input {
+    margin: 10px 0;
+    line-height: 30px;
+    cursor: pointer;
+    background: none;
+    outline: 0; border: 0;
+    color: rgb(126, 232, 166);
+    font-size: 15px;
+}
+
+.formulario-datos > input:focus {
+    border-bottom: 1px solid #9AEBA3;
+}
+
+
+.formulario-datos > button {
+    margin: 20px 0;
+    cursor: pointer;
+    line-height: 30px;
+    background-color: rgb(126, 232, 166);
+    font-weight: 700;
+    font-size: 18px;
+    border: 0; outline: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.formulario-datos > button:hover {
+    background-color: #9AEBA3;
+}
+
+.listado-tareas {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20px;
+    padding: 10px 0;
+    
+}
+
+.icon {
+    cursor: pointer;
+    color: tomato;
+}
